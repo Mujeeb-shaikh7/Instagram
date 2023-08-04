@@ -12,10 +12,10 @@ function App() {
          alt="logo"
       />
      </div>
-    <Post />
-    <Post />
-    <Post />
-    <Post />
+    <Post username='mujeeb' imageUrl='https://w7.pngwing.com/pngs/799/987/png-transparent-computer-icons-avatar-social-media-blog-font-awesome-avatar-heroes-computer-wallpaper-social-media.png' caption="cool my post"/>
+    <Post username='mujeeb' imageUrl='https://www.thedesignwork.com/wp-content/uploads/2011/10/Random-Pictures-of-Conceptual-and-Creative-Ideas-01.jpg' caption="cool my post"/>
+    <Post username='mujeeb' imageUrl='https://assets-prd.ignimgs.com/2021/09/14/lostinrandom-blogroll-01-1631659942612.jpg' caption="cool my post"/>
+    
     </div>
   );
 }
