@@ -10,6 +10,7 @@ import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { Input } from '@mui/material';
+import ImageUpload from './ImageUpload';
 function App() {
   let [posts,setPosts]=useState([])
   const [open, setOpen] = useState(false);
@@ -91,7 +92,7 @@ fetchData()
  }
   return (
     <div className="App">
-            
+     
       <form>
       <Modal
         open={open}
@@ -173,7 +174,7 @@ fetchData()
       }
     
      </div>
-  
+     <ImageUpload />
      {
       posts.map(post=>
         (
