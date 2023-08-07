@@ -2,6 +2,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import 'firebase/compat/firestore';
 import 'firebase/compat/storage'
+import { getStorage } from "firebase/storage";
 const firebaseConfig = {
   apiKey: "AIzaSyBC7jJ0oBJkliC71j4SEGs64suKHoDmY5k",
   authDomain: "instagram-a8a7b.firebaseapp.com",
@@ -15,5 +16,5 @@ const firebaseConfig = {
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db=firebaseApp.firestore();
 const auth=firebase.auth();
-const storage=firebase.storage().ref();
+const storage=getStorage(firebaseApp);;
 export {db, auth,storage};

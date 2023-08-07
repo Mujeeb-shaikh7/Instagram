@@ -22,3 +22,27 @@
   width: 90%;
   margin: 10px;
 }
+
+.image_upload{
+display: flex;
+flex-direction: column;
+max-width: 500px;
+margin: 0 auto;
+}
+.image_upload .content{
+  width: 400px;
+  height: 40px;
+  outline: none;
+  padding: 0 10px;
+  border-radius: 10px;
+}
+.image_upload div{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.image_upload progress{
+  width: 420px;
+ 
+}

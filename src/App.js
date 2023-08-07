@@ -11,6 +11,7 @@ import Typography from '@mui/material/Typography';
 import Modal from '@mui/material/Modal';
 import { Input } from '@mui/material';
 import ImageUpload from './ImageUpload';
+
 function App() {
   let [posts,setPosts]=useState([])
   const [open, setOpen] = useState(false);
@@ -174,7 +175,10 @@ fetchData()
       }
     
      </div>
-     <ImageUpload />
+     {
+      user?( <ImageUpload username={user.displayName}/>):(<h1>You need to login for posting</h1>)
+     }
+    
      {
       posts.map(post=>
         (
