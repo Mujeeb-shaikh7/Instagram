@@ -11,7 +11,10 @@
     border-top: 1px solid lightgray;
     border-bottom: 1px solid lightgrey;
 }
-
+.app_posts{
+    padding: 20px;
+  }
+  
 .post_header{
     display: flex;
     align-items: center;
@@ -23,4 +26,23 @@
 .post_text{
     padding: 20px;
     font-weight: normal;
+}
+.post_commentBox{
+    display: flex;
+    margin-top: 10px;
+}
+.post_input{
+    flex: 1;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+.post_button{
+    flex: 0;
+    border: none;
+    padding: 10px;
+    border-top: 1px solid lightgray;
+}
+.post_comments{
+    padding: 20px;
 }

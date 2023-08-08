@@ -178,14 +178,16 @@ fetchData()
      {
       user?( <ImageUpload username={user.displayName}/>):(<h1>You need to login for posting</h1>)
      }
-    
-     {
-      posts.map(post=>
+    <div className='app_posts'>
+       {
+      posts.map((post)=>
         (
-          <Post key={post.id} username={post.username} imageUrl={post.imageUrl} caption={post.caption}/>
+          <Post key={post.id} user={user} postId={post.id} username={post.username} imageUrl={post.imageUrl} caption={post.caption}/>
         )
       )
      }
+    </div>
+   
    
     </div>
   );
