@@ -162,7 +162,7 @@ fetchData()
      <div className='app_header'>
       <img
         className='app_headerImage'
-        src="https://www.transparentpng.com/thumb/logo-instagram/kuQpOb-logo-instagram-images.png"
+        src="https://i0.wp.com/motion-lab-sudio.com/wp-content/uploads/2020/04/35-355558_vi-logo-instagram-format-png.jpg?fit=840%2C879&ssl=1"
          alt="logo"
       />
       {
